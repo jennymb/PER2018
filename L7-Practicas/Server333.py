@@ -30,8 +30,7 @@ class testHTTPRequestHandler(http.server.BaseHTTPRequestHandler):
         filename = ""
         if self.path == "/":
             filename = "green.html"
-        elif:
-            (self.path == "/blue"):
+        elif self.path == "/blue":
             filename = "blue.html"
         else:
             filename = "error.html"
